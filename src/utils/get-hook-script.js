@@ -28,6 +28,8 @@ function platformSpecific() {
         # Node standard installation path /usr/local
         export PATH="$PATH:/usr/local/bin:/usr/local"
 
+        PREFIX=""
+
         # Try to load nvm using path of standard installation
         load_nvm ${home}/.nvm
         run_nvm`
